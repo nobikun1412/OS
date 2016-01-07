@@ -20,7 +20,7 @@ diff --git a/include/linux/init_task.h b/include/linux/init_task.h
 index 5cd0f09..057f865 100644
 --- a/include/linux/init_task.h
 +++ b/include/linux/init_task.h
-@@ -179,6 +179,9 @@ extern struct task_group root_task_group;
+@@ -201,6 +201,9 @@ extern struct task_group root_task_group;
  		.run_list	= LIST_HEAD_INIT(tsk.rt.run_list),	\
  		.time_slice	= RR_TIMESLICE,				\
  	},								\
