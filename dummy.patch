@@ -45,7 +45,7 @@ index e057ea0..1958e99 100644
  struct sched_dl_entity {
  	struct rb_node	rb_node;
  
-@@ -1364,6 +1368,7 @@ struct task_struct {
+@@ -1255,6 +1259,7 @@ struct task_struct {
  	const struct sched_class *sched_class;
  	struct sched_entity se;
  	struct sched_rt_entity rt;
